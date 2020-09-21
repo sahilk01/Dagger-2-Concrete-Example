@@ -10,11 +10,4 @@ abstract class ActivityBuildersModule {
     @ContributesAndroidInjector
     abstract fun authActivity(): AuthActivity
 
-    companion object {
-        @Provides
-        fun getString(): String {
-            return "this is sahil's project"
-        }
-    }
-
 }
